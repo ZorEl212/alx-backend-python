@@ -8,6 +8,7 @@ from typing import List
 async_generator = __import__('0-async_generator').async_generator
 async_comprehension = __import__('1-async_comprehension').async_comprehension
 
+
 async def measure_runtime() -> float:
     """Measure runtime"""
     start = time.time()
